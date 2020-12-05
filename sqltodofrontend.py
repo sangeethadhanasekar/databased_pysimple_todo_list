@@ -13,7 +13,7 @@ layout=[
 
 def add_tasks(values):
     print(values['todo_item'])
-    if window.FindElement('add_save').GetText()=='Add':
+    if window.FindElement('add_save').GetText()=='ADD':
         insert_into_tasks_table(values['todo_item'])
     update_ui()    
 
