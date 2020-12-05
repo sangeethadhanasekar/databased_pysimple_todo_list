@@ -20,7 +20,7 @@ def add_tasks(values):
 
 
 def delete_tasks(values):
-    mark_task_as_complete(values['tasks'][0])
+    mark_task_as_complete(values['items'][0])
     update_ui()
     
 def update_ui():
